@@ -1,7 +1,6 @@
 tensorflow
 numpy
 pandas
-re
 nltk
 sklearn
 keras
