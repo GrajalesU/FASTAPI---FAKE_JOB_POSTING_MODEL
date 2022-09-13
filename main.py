@@ -1,8 +1,7 @@
 import numpy as np
 import pandas as pd
-import os
 import re
- 
+
 import nltk
 from nltk.corpus import stopwords
 
@@ -16,10 +15,9 @@ from tensorflow.keras.layers import Dropout
 from tensorflow.keras.layers import Embedding
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from sklearn.model_selection import KFold
-import sklearn.metrics
 import keras
 
-from sklearn.metrics import classification_report
+
 
 Jobs_Dataset = pd.read_csv('./fake_job_postings.csv')
 jobs_DS = Jobs_Dataset.copy()
